@@ -1,0 +1,5 @@
+HUOBI_SYMBOLS_INFO_PATH = "/v2/settings/common/symbols"
+HUOBI_CURRENCIES_PATH = "/v2/settings/common/currencies"
+HUOBI_CHAINS_PATH = "/v2/reference/currencies"
+HUOBI_TIME_PATH = "/v1/common/timestamp"
+HUOBI_TICKERS_PATH = "/market/tickers"

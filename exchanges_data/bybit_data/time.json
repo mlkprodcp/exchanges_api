@@ -1,0 +1,10 @@
+{
+    "retCode": 0,
+    "retMsg": "OK",
+    "result": {
+        "timeSecond": "1743456504",
+        "timeNano": "1743456504530807150"
+    },
+    "retExtInfo": {},
+    "time": 1743456504530
+}

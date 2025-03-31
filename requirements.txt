@@ -1,0 +1,14 @@
+pybit
+python-okx
+python-binance
+pandas
+webdriver_manager
+selenium
+bs4
+fastapi
+uvicorn
+binance-connector
+python-dotenv
+requests
+asyncio
+aiofiles
