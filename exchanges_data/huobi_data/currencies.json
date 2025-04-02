@@ -30887,7 +30887,7 @@
             "svd": null,
             "swd": null,
             "sdd": null,
-            "wd": "Min Withdrawal Amount (excluding fee): {withdrawMinAmount} {currencyName}. !>_<!To ensure the safety of your funds, your withdrawal request will be manually reviewed if your security strategy or password is changed. Please wait for phone calls or emails from our staff.!>_<!Please make sure that your computer and browser are secure and your information is protected from being tampered or leaked."
+            "wd": "Min Withdrawal Amount (excluding fee): 1 ACTSOL. !>_<!To ensure the safety of your funds, your withdrawal request will be manually reviewed if your security strategy or password is changed. Please wait for phone calls or emails from our staff.!>_<!Please make sure that your computer and browser are secure and your information is protected from being tampered or leaked."
         },
         {
             "tags": "",
@@ -32784,7 +32784,7 @@
             "cawt": false,
             "fc": 32,
             "sc": 64,
-            "de": false,
+            "de": true,
             "wed": true,
             "cd": false,
             "qc": false,
@@ -33104,6 +33104,6 @@
             "wd": "Minimum withdrawal amount: 25 GHIBLI. !>_<!To ensure the safety of your funds, your withdrawal request will be manually reviewed if your security strategy or password is changed. Please wait for phone calls or emails from our staff.!>_<!Please make sure that your computer and browser are secure and your information is protected from being tampered or leaked."
         }
     ],
-    "ts": "1743596073501",
+    "ts": "1743610325474",
     "full": 1
 }

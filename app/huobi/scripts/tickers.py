@@ -19,7 +19,7 @@ def extract_tickers_data_huobi(data):
             "bid": tickers.get("bid"),
             "bidSize": tickers.get("bidSize"),
             "ask": tickers.get("ask"),
-            "askSize": tickers.get("askSize"),
+            "askSize": tickers.get("askSize")
         }
         for tickers in data["data"]
     }
