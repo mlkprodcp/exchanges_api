@@ -668,7 +668,7 @@
             {
                 "name": "BSC",
                 "addr": "0x8fb238058e71f828f505582e65b1d14f8cf52067",
-                "withdraw_disabled": true,
+                "withdraw_disabled": false,
                 "withdraw_delayed": false,
                 "deposit_disabled": false
             }
@@ -752,7 +752,7 @@
         "currency": "K",
         "name": "Kinto",
         "delisted": false,
-        "withdraw_disabled": true,
+        "withdraw_disabled": false,
         "withdraw_delayed": false,
         "deposit_disabled": false,
         "trade_disabled": false,
@@ -762,7 +762,7 @@
             {
                 "name": "ARBEVM",
                 "addr": "0x010700ab046dd8e92b0e3587842080df36364ed3",
-                "withdraw_disabled": true,
+                "withdraw_disabled": false,
                 "withdraw_delayed": false,
                 "deposit_disabled": false
             }
@@ -4203,10 +4203,10 @@
         "deposit_disabled": false,
         "trade_disabled": false,
         "fixed_rate": "",
-        "chain": "KLAY",
+        "chain": "KAIA",
         "chains": [
             {
-                "name": "KLAY",
+                "name": "KAIA",
                 "addr": "0x63dec0c0cf911d8967446ce422dd31f13e1e0556",
                 "withdraw_disabled": false,
                 "withdraw_delayed": false,
@@ -4310,10 +4310,10 @@
         "deposit_disabled": true,
         "trade_disabled": true,
         "fixed_rate": "",
-        "chain": "KLAY",
+        "chain": "KAIA",
         "chains": [
             {
-                "name": "KLAY",
+                "name": "KAIA",
                 "addr": "0xdcd62c57182e780e23d2313c4782709da85b9d6c",
                 "withdraw_disabled": true,
                 "withdraw_delayed": false,
@@ -4955,6 +4955,26 @@
         ]
     },
     {
+        "currency": "SUT",
+        "name": "SUPERTRUST",
+        "delisted": false,
+        "withdraw_disabled": true,
+        "withdraw_delayed": false,
+        "deposit_disabled": false,
+        "trade_disabled": false,
+        "fixed_rate": "",
+        "chain": "MATIC",
+        "chains": [
+            {
+                "name": "MATIC",
+                "addr": "0x98965474ecbec2f532f1f780ee37b0b05f77ca55",
+                "withdraw_disabled": true,
+                "withdraw_delayed": false,
+                "deposit_disabled": false
+            }
+        ]
+    },
+    {
         "currency": "YVS3",
         "name": "YVS3",
         "delisted": true,
@@ -4981,7 +5001,7 @@
         "withdraw_disabled": false,
         "withdraw_delayed": false,
         "deposit_disabled": true,
-        "trade_disabled": false,
+        "trade_disabled": true,
         "fixed_rate": "",
         "chain": "BTG",
         "chains": [
@@ -5887,7 +5907,7 @@
         "currency": "BXN",
         "name": "Blackfort",
         "delisted": false,
-        "withdraw_disabled": true,
+        "withdraw_disabled": false,
         "withdraw_delayed": false,
         "deposit_disabled": false,
         "trade_disabled": false,
@@ -5897,7 +5917,7 @@
             {
                 "name": "BXN",
                 "addr": "",
-                "withdraw_disabled": true,
+                "withdraw_disabled": false,
                 "withdraw_delayed": false,
                 "deposit_disabled": false
             }
@@ -5912,10 +5932,10 @@
         "deposit_disabled": false,
         "trade_disabled": true,
         "fixed_rate": "",
-        "chain": "KLAY",
+        "chain": "KAIA",
         "chains": [
             {
-                "name": "KLAY",
+                "name": "KAIA",
                 "addr": "0x17d2628d30f8e9e966c9ba831c9b9b01ea8ea75c",
                 "withdraw_disabled": false,
                 "withdraw_delayed": false,
@@ -7346,10 +7366,10 @@
         "deposit_disabled": false,
         "trade_disabled": false,
         "fixed_rate": "",
-        "chain": "KLAY",
+        "chain": "KAIA",
         "chains": [
             {
-                "name": "KLAY",
+                "name": "KAIA",
                 "addr": "0x84f8c3c8d6ee30a559d73ec570d574f671e82647",
                 "withdraw_disabled": false,
                 "withdraw_delayed": false,
@@ -10603,7 +10623,7 @@
         "delisted": false,
         "withdraw_disabled": false,
         "withdraw_delayed": false,
-        "deposit_disabled": false,
+        "deposit_disabled": true,
         "trade_disabled": false,
         "fixed_rate": "",
         "chain": "BSC",
@@ -10613,7 +10633,7 @@
                 "addr": "0xeec027f0d9a1de829f430b5dfafe9f7ca5be9c88",
                 "withdraw_disabled": false,
                 "withdraw_delayed": false,
-                "deposit_disabled": false
+                "deposit_disabled": true
             }
         ]
     },
@@ -15638,10 +15658,10 @@
         "deposit_disabled": false,
         "trade_disabled": false,
         "fixed_rate": "",
-        "chain": "KLAY",
+        "chain": "KAIA",
         "chains": [
             {
-                "name": "KLAY",
+                "name": "KAIA",
                 "addr": "0x0ab503536019cb4303bda69467c1ec5de1589918",
                 "withdraw_disabled": false,
                 "withdraw_delayed": false,
@@ -16096,7 +16116,7 @@
         "delisted": false,
         "withdraw_disabled": false,
         "withdraw_delayed": false,
-        "deposit_disabled": false,
+        "deposit_disabled": true,
         "trade_disabled": false,
         "fixed_rate": "",
         "chain": "ETH",
@@ -16106,7 +16126,7 @@
                 "addr": "0x487d62468282bd04ddf976631c23128a425555ee",
                 "withdraw_disabled": false,
                 "withdraw_delayed": false,
-                "deposit_disabled": false
+                "deposit_disabled": true
             }
         ]
     },
@@ -19415,10 +19435,10 @@
         "deposit_disabled": false,
         "trade_disabled": false,
         "fixed_rate": "",
-        "chain": "KLAY",
+        "chain": "KAIA",
         "chains": [
             {
-                "name": "KLAY",
+                "name": "KAIA",
                 "addr": "0x275f942985503d8ce9558f8377cc526a3aba3566",
                 "withdraw_disabled": false,
                 "withdraw_delayed": false,
@@ -20031,10 +20051,10 @@
         "deposit_disabled": false,
         "trade_disabled": false,
         "fixed_rate": "",
-        "chain": "KLAY",
+        "chain": "KAIA",
         "chains": [
             {
-                "name": "KLAY",
+                "name": "KAIA",
                 "addr": "0x6009950e4b05fba0f95fe799ce47b56e2de4a34f",
                 "withdraw_disabled": false,
                 "withdraw_delayed": false,
@@ -27832,9 +27852,9 @@
         "currency": "QUBIC",
         "name": "QUBIC",
         "delisted": false,
-        "withdraw_disabled": false,
+        "withdraw_disabled": true,
         "withdraw_delayed": false,
-        "deposit_disabled": false,
+        "deposit_disabled": true,
         "trade_disabled": false,
         "fixed_rate": "",
         "chain": "QUBIC",
@@ -27842,9 +27862,9 @@
             {
                 "name": "QUBIC",
                 "addr": "",
-                "withdraw_disabled": false,
+                "withdraw_disabled": true,
                 "withdraw_delayed": false,
-                "deposit_disabled": false
+                "deposit_disabled": true
             }
         ]
     },
@@ -31296,10 +31316,10 @@
         "deposit_disabled": false,
         "trade_disabled": true,
         "fixed_rate": "",
-        "chain": "KLAY",
+        "chain": "KAIA",
         "chains": [
             {
-                "name": "KLAY",
+                "name": "KAIA",
                 "addr": "0x5096db80b21ef45230c9e423c373f1fc9c0198dd",
                 "withdraw_disabled": false,
                 "withdraw_delayed": false,
@@ -33315,10 +33335,10 @@
         "deposit_disabled": false,
         "trade_disabled": false,
         "fixed_rate": "",
-        "chain": "KLAY",
+        "chain": "KAIA",
         "chains": [
             {
-                "name": "KLAY",
+                "name": "KAIA",
                 "addr": "",
                 "withdraw_disabled": false,
                 "withdraw_delayed": false,
@@ -33979,7 +33999,7 @@
         "currency": "GUN",
         "name": "GUNZ",
         "delisted": false,
-        "withdraw_disabled": true,
+        "withdraw_disabled": false,
         "withdraw_delayed": false,
         "deposit_disabled": false,
         "trade_disabled": false,
@@ -33989,7 +34009,7 @@
             {
                 "name": "GUN",
                 "addr": "",
-                "withdraw_disabled": true,
+                "withdraw_disabled": false,
                 "withdraw_delayed": false,
                 "deposit_disabled": false
             }
@@ -34071,10 +34091,10 @@
         "deposit_disabled": false,
         "trade_disabled": false,
         "fixed_rate": "",
-        "chain": "KLAY",
+        "chain": "KAIA",
         "chains": [
             {
-                "name": "KLAY",
+                "name": "KAIA",
                 "addr": "0xe06b40df899b9717b4e6b50711e1dc72d08184cf",
                 "withdraw_disabled": false,
                 "withdraw_delayed": false,
@@ -34278,10 +34298,10 @@
         "deposit_disabled": false,
         "trade_disabled": false,
         "fixed_rate": "",
-        "chain": "KLAY",
+        "chain": "KAIA",
         "chains": [
             {
-                "name": "KLAY",
+                "name": "KAIA",
                 "addr": "0xa80e96cceb1419f9bd9f1c67f7978f51b534a11b",
                 "withdraw_disabled": false,
                 "withdraw_delayed": false,
@@ -37838,10 +37858,10 @@
         "deposit_disabled": false,
         "trade_disabled": false,
         "fixed_rate": "",
-        "chain": "KLAY",
+        "chain": "KAIA",
         "chains": [
             {
-                "name": "KLAY",
+                "name": "KAIA",
                 "addr": "0xc8a5c66d63408406c12f1a94608d28a5319f2399",
                 "withdraw_disabled": false,
                 "withdraw_delayed": false,
@@ -41748,7 +41768,7 @@
         "delisted": false,
         "withdraw_disabled": false,
         "withdraw_delayed": false,
-        "deposit_disabled": false,
+        "deposit_disabled": true,
         "trade_disabled": false,
         "fixed_rate": "",
         "chain": "BASEEVM",
@@ -41758,7 +41778,7 @@
                 "addr": "0x41a22eb30df65d6ab0ce0b4cfe8f4e0eb306d471",
                 "withdraw_disabled": false,
                 "withdraw_delayed": false,
-                "deposit_disabled": false
+                "deposit_disabled": true
             }
         ]
     },
@@ -44570,7 +44590,7 @@
         "currency": "LGCT",
         "name": "Legacy Network",
         "delisted": false,
-        "withdraw_disabled": true,
+        "withdraw_disabled": false,
         "withdraw_delayed": false,
         "deposit_disabled": false,
         "trade_disabled": false,
@@ -44580,14 +44600,14 @@
             {
                 "name": "BASEEVM",
                 "addr": "0xd38b305cac06990c0887032a02c03d6839f770a8",
-                "withdraw_disabled": true,
+                "withdraw_disabled": false,
                 "withdraw_delayed": false,
                 "deposit_disabled": false
             },
             {
                 "name": "BSC",
                 "addr": "0xd38b305cac06990c0887032a02c03d6839f770a8",
-                "withdraw_disabled": true,
+                "withdraw_disabled": false,
                 "withdraw_delayed": false,
                 "deposit_disabled": false
             }
@@ -45196,10 +45216,10 @@
         "deposit_disabled": false,
         "trade_disabled": false,
         "fixed_rate": "",
-        "chain": "KLAY",
+        "chain": "KAIA",
         "chains": [
             {
-                "name": "KLAY",
+                "name": "KAIA",
                 "addr": "0xec47f42260438666cc88ce6ef770283f2d19d39b",
                 "withdraw_disabled": false,
                 "withdraw_delayed": false,
@@ -45509,10 +45529,10 @@
         "deposit_disabled": false,
         "trade_disabled": false,
         "fixed_rate": "",
-        "chain": "KLAY",
+        "chain": "KAIA",
         "chains": [
             {
-                "name": "KLAY",
+                "name": "KAIA",
                 "addr": "0x19c0d5ddcf06f282e7a547d25ab09fe5a7984aae",
                 "withdraw_disabled": false,
                 "withdraw_delayed": false,
@@ -45877,10 +45897,10 @@
         "deposit_disabled": false,
         "trade_disabled": false,
         "fixed_rate": "",
-        "chain": "KLAY",
+        "chain": "KAIA",
         "chains": [
             {
-                "name": "KLAY",
+                "name": "KAIA",
                 "addr": "0x3eef2b8d8050197e409b69f09462f49eab562979",
                 "withdraw_disabled": false,
                 "withdraw_delayed": false,
@@ -48241,10 +48261,10 @@
         "deposit_disabled": false,
         "trade_disabled": false,
         "fixed_rate": "",
-        "chain": "KLAY",
+        "chain": "KAIA",
         "chains": [
             {
-                "name": "KLAY",
+                "name": "KAIA",
                 "addr": "0xe4a1bd45cddbbd5d9f605b08ed13a94b6b6ab5aa",
                 "withdraw_disabled": false,
                 "withdraw_delayed": false,
@@ -51756,7 +51776,7 @@
         "withdraw_disabled": true,
         "withdraw_delayed": false,
         "deposit_disabled": false,
-        "trade_disabled": true,
+        "trade_disabled": false,
         "fixed_rate": "",
         "chain": "ETH",
         "chains": [
@@ -55417,7 +55437,7 @@
         "delisted": false,
         "withdraw_disabled": false,
         "withdraw_delayed": false,
-        "deposit_disabled": false,
+        "deposit_disabled": true,
         "trade_disabled": false,
         "fixed_rate": "",
         "chain": "SOL",
@@ -55427,7 +55447,7 @@
                 "addr": "8Zx6ECj3Fia7NCPfEWLcgCrP22j7dyS5GdYHUsTkVUtS",
                 "withdraw_disabled": false,
                 "withdraw_delayed": false,
-                "deposit_disabled": false
+                "deposit_disabled": true
             }
         ]
     },
@@ -55560,10 +55580,10 @@
         "deposit_disabled": false,
         "trade_disabled": false,
         "fixed_rate": "",
-        "chain": "KLAY",
+        "chain": "KAIA",
         "chains": [
             {
-                "name": "KLAY",
+                "name": "KAIA",
                 "addr": "0x971796e4858ea3dd19011199817a0716e62db2f5",
                 "withdraw_disabled": false,
                 "withdraw_delayed": false,
@@ -56029,10 +56049,10 @@
         "deposit_disabled": false,
         "trade_disabled": false,
         "fixed_rate": "",
-        "chain": "KLAY",
+        "chain": "KAIA",
         "chains": [
             {
-                "name": "KLAY",
+                "name": "KAIA",
                 "addr": "0xd068c52d81f4409b9502da926ace3301cc41f623",
                 "withdraw_disabled": false,
                 "withdraw_delayed": false,
@@ -56486,7 +56506,7 @@
         "currency": "WIZZ",
         "name": "Wizzwoods",
         "delisted": false,
-        "withdraw_disabled": true,
+        "withdraw_disabled": false,
         "withdraw_delayed": false,
         "deposit_disabled": false,
         "trade_disabled": false,
@@ -56496,7 +56516,7 @@
             {
                 "name": "BERA",
                 "addr": "0x01c8a5ccad23a4d3764ef71c403862160aa2913a",
-                "withdraw_disabled": true,
+                "withdraw_disabled": false,
                 "withdraw_delayed": false,
                 "deposit_disabled": false
             }
@@ -57613,10 +57633,10 @@
         "deposit_disabled": true,
         "trade_disabled": false,
         "fixed_rate": "",
-        "chain": "KLAY",
+        "chain": "KAIA",
         "chains": [
             {
-                "name": "KLAY",
+                "name": "KAIA",
                 "addr": "0x96035fbdd4cb888862ee28c9d8fdadef78311cc9",
                 "withdraw_disabled": true,
                 "withdraw_delayed": false,
@@ -60528,10 +60548,10 @@
         "deposit_disabled": false,
         "trade_disabled": false,
         "fixed_rate": "",
-        "chain": "KLAY",
+        "chain": "KAIA",
         "chains": [
             {
-                "name": "KLAY",
+                "name": "KAIA",
                 "addr": "0x0fa1995019322ef3178d037871c4d2eee0940c08",
                 "withdraw_disabled": false,
                 "withdraw_delayed": false,
@@ -62223,10 +62243,10 @@
         "deposit_disabled": false,
         "trade_disabled": false,
         "fixed_rate": "",
-        "chain": "KLAY",
+        "chain": "KAIA",
         "chains": [
             {
-                "name": "KLAY",
+                "name": "KAIA",
                 "addr": "0xe06597d02a2c3aa7a9708de2cfa587b128bd3815",
                 "withdraw_disabled": false,
                 "withdraw_delayed": false,
@@ -62702,7 +62722,7 @@
             {
                 "name": "BSC",
                 "addr": "0xeceb87cf00dcbf2d4e2880223743ff087a995ad9",
-                "withdraw_disabled": false,
+                "withdraw_disabled": true,
                 "withdraw_delayed": false,
                 "deposit_disabled": false
             },
@@ -65817,10 +65837,10 @@
         "deposit_disabled": true,
         "trade_disabled": true,
         "fixed_rate": "",
-        "chain": "KLAY",
+        "chain": "KAIA",
         "chains": [
             {
-                "name": "KLAY",
+                "name": "KAIA",
                 "addr": "0x2350caf0eead5677e85b5282fa68d8d42fa381bf",
                 "withdraw_disabled": false,
                 "withdraw_delayed": false,
@@ -67476,17 +67496,17 @@
         "currency": "BORA",
         "name": "BORA",
         "delisted": false,
-        "withdraw_disabled": true,
+        "withdraw_disabled": false,
         "withdraw_delayed": false,
         "deposit_disabled": false,
         "trade_disabled": false,
         "fixed_rate": "",
-        "chain": "KLAY",
+        "chain": "KAIA",
         "chains": [
             {
-                "name": "KLAY",
+                "name": "KAIA",
                 "addr": "0x02cbe46fb8a1f579254a9b485788f2d86cad51aa",
-                "withdraw_disabled": true,
+                "withdraw_disabled": false,
                 "withdraw_delayed": false,
                 "deposit_disabled": false
             }
@@ -67616,7 +67636,7 @@
         "currency": "CARV",
         "name": "CARV",
         "delisted": false,
-        "withdraw_disabled": false,
+        "withdraw_disabled": true,
         "withdraw_delayed": false,
         "deposit_disabled": false,
         "trade_disabled": false,
@@ -67626,7 +67646,7 @@
             {
                 "name": "BASEEVM",
                 "addr": "0xc08Cd26474722cE93F4D0c34D16201461c10AA8C",
-                "withdraw_disabled": false,
+                "withdraw_disabled": true,
                 "withdraw_delayed": false,
                 "deposit_disabled": false
             }
@@ -68656,10 +68676,10 @@
         "deposit_disabled": false,
         "trade_disabled": false,
         "fixed_rate": "",
-        "chain": "KLAY",
+        "chain": "KAIA",
         "chains": [
             {
-                "name": "KLAY",
+                "name": "KAIA",
                 "addr": "0xff1bf7a212012ee903fbb5a3adb4a9a31f371ef7",
                 "withdraw_disabled": false,
                 "withdraw_delayed": false,
@@ -79288,10 +79308,10 @@
         "deposit_disabled": false,
         "trade_disabled": false,
         "fixed_rate": "",
-        "chain": "KLAY",
+        "chain": "KAIA",
         "chains": [
             {
-                "name": "KLAY",
+                "name": "KAIA",
                 "addr": "0xd109065ee17E2dC20b3472a4d4fB5907BD687D09",
                 "withdraw_disabled": false,
                 "withdraw_delayed": false,
@@ -79523,7 +79543,7 @@
         "currency": "NUMI",
         "name": "Numine",
         "delisted": false,
-        "withdraw_disabled": true,
+        "withdraw_disabled": false,
         "withdraw_delayed": false,
         "deposit_disabled": false,
         "trade_disabled": false,
@@ -79533,7 +79553,7 @@
             {
                 "name": "ETH",
                 "addr": "0xa29c9a740de8194e4016747e9a04a84946ada0a5",
-                "withdraw_disabled": true,
+                "withdraw_disabled": false,
                 "withdraw_delayed": false,
                 "deposit_disabled": false
             }
@@ -79939,7 +79959,7 @@
         "delisted": false,
         "withdraw_disabled": false,
         "withdraw_delayed": false,
-        "deposit_disabled": false,
+        "deposit_disabled": true,
         "trade_disabled": false,
         "fixed_rate": "",
         "chain": "SOL",
@@ -79949,7 +79969,7 @@
                 "addr": "AMUwxPsqWSd1fbCGzWsrRKDcNoduuWMkdR38qPdit8G8",
                 "withdraw_disabled": false,
                 "withdraw_delayed": false,
-                "deposit_disabled": false
+                "deposit_disabled": true
             }
         ]
     },
@@ -80036,10 +80056,10 @@
         "deposit_disabled": false,
         "trade_disabled": false,
         "fixed_rate": "",
-        "chain": "KLAY",
+        "chain": "KAIA",
         "chains": [
             {
-                "name": "KLAY",
+                "name": "KAIA",
                 "addr": "0x91bcba699222fe2c14ae90e51943a40e59050f79",
                 "withdraw_disabled": false,
                 "withdraw_delayed": false,
@@ -81325,10 +81345,10 @@
         "deposit_disabled": false,
         "trade_disabled": true,
         "fixed_rate": "",
-        "chain": "KLAY",
+        "chain": "KAIA",
         "chains": [
             {
-                "name": "KLAY",
+                "name": "KAIA",
                 "addr": "0x01ad62e0ff6dcaa72889fca155c7036c78ca1783",
                 "withdraw_disabled": false,
                 "withdraw_delayed": false,
@@ -83326,10 +83346,10 @@
         "deposit_disabled": true,
         "trade_disabled": true,
         "fixed_rate": "",
-        "chain": "KLAY",
+        "chain": "KAIA",
         "chains": [
             {
-                "name": "KLAY",
+                "name": "KAIA",
                 "addr": "0x4b91c67a89d4c4b2a4ed9fcde6130d7495330972",
                 "withdraw_disabled": false,
                 "withdraw_delayed": false,

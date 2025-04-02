@@ -310,7 +310,7 @@
                 "quoteCoin": "USDT",
                 "innovation": "0",
                 "status": "Trading",
-                "marginTrading": "utaOnly",
+                "marginTrading": "none",
                 "stTag": "0",
                 "lotSizeFilter": {
                     "basePrecision": "0.001",
@@ -831,7 +831,7 @@
                 "innovation": "0",
                 "status": "Trading",
                 "marginTrading": "none",
-                "stTag": "0",
+                "stTag": "1",
                 "lotSizeFilter": {
                     "basePrecision": "0.1",
                     "quotePrecision": "0.00000001",
@@ -970,7 +970,7 @@
                 "quoteCoin": "USDT",
                 "innovation": "0",
                 "status": "Trading",
-                "marginTrading": "utaOnly",
+                "marginTrading": "none",
                 "stTag": "0",
                 "lotSizeFilter": {
                     "basePrecision": "0.01",
@@ -1405,26 +1405,6 @@
                 }
             },
             {
-                "symbol": "CELUSDT",
-                "baseCoin": "CEL",
-                "quoteCoin": "USDT",
-                "innovation": "0",
-                "status": "Trading",
-                "marginTrading": "none",
-                "stTag": "1",
-                "lotSizeFilter": {
-                    "basePrecision": "0.01",
-                    "quotePrecision": "0.000001",
-                    "minOrderQty": "5.03",
-                    "maxOrderQty": "2232142.857143",
-                    "minOrderAmt": "5",
-                    "maxOrderAmt": "200000"
-                },
-                "priceFilter": {
-                    "tickSize": "0.0001"
-                }
-            },
-            {
                 "symbol": "UMAUSDT",
                 "baseCoin": "UMA",
                 "quoteCoin": "USDT",
@@ -1705,33 +1685,13 @@
                 }
             },
             {
-                "symbol": "PLTUSDT",
-                "baseCoin": "PLT",
-                "quoteCoin": "USDT",
-                "innovation": "0",
-                "status": "Trading",
-                "marginTrading": "none",
-                "stTag": "1",
-                "lotSizeFilter": {
-                    "basePrecision": "0.01",
-                    "quotePrecision": "0.00000001",
-                    "minOrderQty": "30.1",
-                    "maxOrderQty": "8833922.2614841",
-                    "minOrderAmt": "5",
-                    "maxOrderAmt": "200000"
-                },
-                "priceFilter": {
-                    "tickSize": "0.000001"
-                }
-            },
-            {
                 "symbol": "IZIUSDT",
                 "baseCoin": "IZI",
                 "quoteCoin": "USDT",
                 "innovation": "0",
                 "status": "Trading",
                 "marginTrading": "none",
-                "stTag": "1",
+                "stTag": "0",
                 "lotSizeFilter": {
                     "basePrecision": "0.01",
                     "quotePrecision": "0.00000001",
@@ -3325,26 +3285,6 @@
                 }
             },
             {
-                "symbol": "LGXUSDT",
-                "baseCoin": "LGX",
-                "quoteCoin": "USDT",
-                "innovation": "0",
-                "status": "Trading",
-                "marginTrading": "none",
-                "stTag": "1",
-                "lotSizeFilter": {
-                    "basePrecision": "0.01",
-                    "quotePrecision": "0.000000001",
-                    "minOrderQty": "3313",
-                    "maxOrderQty": "1221747098.350641417",
-                    "minOrderAmt": "5",
-                    "maxOrderAmt": "200000"
-                },
-                "priceFilter": {
-                    "tickSize": "0.0000001"
-                }
-            },
-            {
                 "symbol": "APEXUSDT",
                 "baseCoin": "APEX",
                 "quoteCoin": "USDT",
@@ -3611,7 +3551,7 @@
                 "innovation": "0",
                 "status": "Trading",
                 "marginTrading": "none",
-                "stTag": "0",
+                "stTag": "1",
                 "lotSizeFilter": {
                     "basePrecision": "0.01",
                     "quotePrecision": "0.000000001",
@@ -3671,12 +3611,12 @@
                 "innovation": "0",
                 "status": "Trading",
                 "marginTrading": "none",
-                "stTag": "0",
+                "stTag": "1",
                 "lotSizeFilter": {
                     "basePrecision": "0.01",
                     "quotePrecision": "0.000000001",
                     "minOrderQty": "1332.98",
-                    "maxOrderQty": "351308624.626734586",
+                    "maxOrderQty": "535475234.270414993",
                     "minOrderAmt": "5",
                     "maxOrderAmt": "200000"
                 },
@@ -4590,13 +4530,13 @@
                 "quoteCoin": "USDT",
                 "innovation": "0",
                 "status": "Trading",
-                "marginTrading": "utaOnly",
+                "marginTrading": "none",
                 "stTag": "0",
                 "lotSizeFilter": {
                     "basePrecision": "0.01",
                     "quotePrecision": "0.00001",
                     "minOrderQty": "0.31",
-                    "maxOrderQty": "87823.299521",
+                    "maxOrderQty": "133244.50366",
                     "minOrderAmt": "5",
                     "maxOrderAmt": "200000"
                 },
@@ -4970,7 +4910,7 @@
                 "quoteCoin": "USDT",
                 "innovation": "0",
                 "status": "Trading",
-                "marginTrading": "none",
+                "marginTrading": "utaOnly",
                 "stTag": "0",
                 "lotSizeFilter": {
                     "basePrecision": "0.01",
@@ -5956,7 +5896,7 @@
                     "basePrecision": "0.01",
                     "quotePrecision": "0.00000001",
                     "minOrderQty": "281",
-                    "maxOrderQty": "163800163.8001638",
+                    "maxOrderQty": "251572327.04402516",
                     "minOrderAmt": "5",
                     "maxOrderAmt": "200000"
                 },
@@ -6265,26 +6205,6 @@
                 }
             },
             {
-                "symbol": "CTTUSDT",
-                "baseCoin": "CTT",
-                "quoteCoin": "USDT",
-                "innovation": "0",
-                "status": "Trading",
-                "marginTrading": "none",
-                "stTag": "1",
-                "lotSizeFilter": {
-                    "basePrecision": "0.01",
-                    "quotePrecision": "0.000000001",
-                    "minOrderQty": "1937.99",
-                    "maxOrderQty": "1659751037.34439834",
-                    "minOrderAmt": "5",
-                    "maxOrderAmt": "200000"
-                },
-                "priceFilter": {
-                    "tickSize": "0.0000001"
-                }
-            },
-            {
                 "symbol": "KASUSDT",
                 "baseCoin": "KAS",
                 "quoteCoin": "USDT",
@@ -6356,7 +6276,7 @@
                     "basePrecision": "0.01",
                     "quotePrecision": "0.00000001",
                     "minOrderQty": "1117",
-                    "maxOrderQty": "225733634.31151242",
+                    "maxOrderQty": "338983050.84745763",
                     "minOrderAmt": "5",
                     "maxOrderAmt": "200000"
                 },
@@ -6576,7 +6496,7 @@
                     "basePrecision": "0.01",
                     "quotePrecision": "0.00000001",
                     "minOrderQty": "255.76",
-                    "maxOrderQty": "89166295.14043691",
+                    "maxOrderQty": "133779264.21404682",
                     "minOrderAmt": "5",
                     "maxOrderAmt": "200000"
                 },
@@ -7396,7 +7316,7 @@
                     "basePrecision": "0.01",
                     "quotePrecision": "0.000001",
                     "minOrderQty": "4.63",
-                    "maxOrderQty": "1421464.108031",
+                    "maxOrderQty": "2136752.136752",
                     "minOrderAmt": "5",
                     "maxOrderAmt": "200000"
                 },
@@ -7482,26 +7402,6 @@
                 },
                 "priceFilter": {
                     "tickSize": "0.0001"
-                }
-            },
-            {
-                "symbol": "MXMUSDT",
-                "baseCoin": "MXM",
-                "quoteCoin": "USDT",
-                "innovation": "0",
-                "status": "Trading",
-                "marginTrading": "none",
-                "stTag": "1",
-                "lotSizeFilter": {
-                    "basePrecision": "0.01",
-                    "quotePrecision": "0.00000001",
-                    "minOrderQty": "427",
-                    "maxOrderQty": "131061598.95150721",
-                    "minOrderAmt": "5",
-                    "maxOrderAmt": "200000"
-                },
-                "priceFilter": {
-                    "tickSize": "0.000001"
                 }
             },
             {
@@ -7616,7 +7516,7 @@
                     "basePrecision": "0.01",
                     "quotePrecision": "0.0000001",
                     "minOrderQty": "31",
-                    "maxOrderQty": "4483299.7085855",
+                    "maxOrderQty": "6731740.15483",
                     "minOrderAmt": "5",
                     "maxOrderAmt": "200000"
                 },
@@ -7905,26 +7805,6 @@
                 }
             },
             {
-                "symbol": "ZENDUSDT",
-                "baseCoin": "ZEND",
-                "quoteCoin": "USDT",
-                "innovation": "0",
-                "status": "Trading",
-                "marginTrading": "none",
-                "stTag": "1",
-                "lotSizeFilter": {
-                    "basePrecision": "0.01",
-                    "quotePrecision": "0.0000001",
-                    "minOrderQty": "53",
-                    "maxOrderQty": "26109660.5744125",
-                    "minOrderAmt": "5",
-                    "maxOrderAmt": "200000"
-                },
-                "priceFilter": {
-                    "tickSize": "0.00001"
-                }
-            },
-            {
                 "symbol": "BOMEUSDT",
                 "baseCoin": "BOME",
                 "quoteCoin": "USDT",
@@ -8142,26 +8022,6 @@
                 },
                 "priceFilter": {
                     "tickSize": "0.000001"
-                }
-            },
-            {
-                "symbol": "BONUSUSDT",
-                "baseCoin": "BONUS",
-                "quoteCoin": "USDT",
-                "innovation": "0",
-                "status": "Trading",
-                "marginTrading": "none",
-                "stTag": "1",
-                "lotSizeFilter": {
-                    "basePrecision": "0.01",
-                    "quotePrecision": "0.0000001",
-                    "minOrderQty": "74",
-                    "maxOrderQty": "66666666.6666667",
-                    "minOrderAmt": "5",
-                    "maxOrderAmt": "200000"
-                },
-                "priceFilter": {
-                    "tickSize": "0.00001"
                 }
             },
             {
@@ -8436,7 +8296,7 @@
                     "basePrecision": "0.01",
                     "quotePrecision": "0.00001",
                     "minOrderQty": "0.32",
-                    "maxOrderQty": "52631.5789",
+                    "maxOrderQty": "79145.2315",
                     "minOrderAmt": "5",
                     "maxOrderAmt": "200000"
                 },
@@ -11076,7 +10936,7 @@
                     "basePrecision": "0.1",
                     "quotePrecision": "0.0001",
                     "minOrderQty": "2.7",
-                    "maxOrderQty": "491400.4914",
+                    "maxOrderQty": "738007.3801",
                     "minOrderAmt": "5",
                     "maxOrderAmt": "200000"
                 },
@@ -11296,7 +11156,7 @@
                     "basePrecision": "1",
                     "quotePrecision": "0.0001",
                     "minOrderQty": "18",
-                    "maxOrderQty": "2808988.764",
+                    "maxOrderQty": "4219409.2827",
                     "minOrderAmt": "5",
                     "maxOrderAmt": "200000"
                 },
@@ -11356,7 +11216,7 @@
                     "basePrecision": "1",
                     "quotePrecision": "0.0000001",
                     "minOrderQty": "4054",
-                    "maxOrderQty": "729128691.2139993",
+                    "maxOrderQty": "1094690749.8631637",
                     "minOrderAmt": "5",
                     "maxOrderAmt": "200000"
                 },
@@ -11836,7 +11696,7 @@
                     "basePrecision": "0.01",
                     "quotePrecision": "0.000001",
                     "minOrderQty": "1.9",
-                    "maxOrderQty": "312744.331509",
+                    "maxOrderQty": "469153.178513",
                     "minOrderAmt": "5",
                     "maxOrderAmt": "200000"
                 },
@@ -11851,7 +11711,7 @@
                 "innovation": "0",
                 "status": "Trading",
                 "marginTrading": "none",
-                "stTag": "1",
+                "stTag": "0",
                 "lotSizeFilter": {
                     "basePrecision": "0.01",
                     "quotePrecision": "0.0000001",
@@ -12316,7 +12176,7 @@
                     "basePrecision": "0.1",
                     "quotePrecision": "0.000001",
                     "minOrderQty": "208",
-                    "maxOrderQty": "40733197.556008",
+                    "maxOrderQty": "62305295.950156",
                     "minOrderAmt": "5",
                     "maxOrderAmt": "200000"
                 },
@@ -12476,7 +12336,7 @@
                     "basePrecision": "0.1",
                     "quotePrecision": "0.000001",
                     "minOrderQty": "181",
-                    "maxOrderQty": "39292730.844794",
+                    "maxOrderQty": "58997050.147493",
                     "minOrderAmt": "5",
                     "maxOrderAmt": "200000"
                 },
@@ -12756,7 +12616,7 @@
                     "basePrecision": "0.1",
                     "quotePrecision": "0.00001",
                     "minOrderQty": "5",
-                    "maxOrderQty": "3448275.86207",
+                    "maxOrderQty": "8000000",
                     "minOrderAmt": "5",
                     "maxOrderAmt": "200000"
                 },
@@ -12776,7 +12636,7 @@
                     "basePrecision": "1",
                     "quotePrecision": "0.00001",
                     "minOrderQty": "34",
-                    "maxOrderQty": "24125452.35223",
+                    "maxOrderQty": "37383177.57009",
                     "minOrderAmt": "5",
                     "maxOrderAmt": "200000"
                 },
@@ -12956,7 +12816,7 @@
                     "basePrecision": "0.1",
                     "quotePrecision": "0.00001",
                     "minOrderQty": "2",
-                    "maxOrderQty": "923787.52887",
+                    "maxOrderQty": "1386001.386",
                     "minOrderAmt": "5",
                     "maxOrderAmt": "200000"
                 },
@@ -12976,7 +12836,7 @@
                     "basePrecision": "0.1",
                     "quotePrecision": "0.000001",
                     "minOrderQty": "10",
-                    "maxOrderQty": "2000000",
+                    "maxOrderQty": "3015226.895824",
                     "minOrderAmt": "5",
                     "maxOrderAmt": "200000"
                 },
@@ -13003,8 +12863,28 @@
                 "priceFilter": {
                     "tickSize": "0.0001"
                 }
+            },
+            {
+                "symbol": "PUMPUSDT",
+                "baseCoin": "PUMP",
+                "quoteCoin": "USDT",
+                "innovation": "0",
+                "status": "Trading",
+                "marginTrading": "none",
+                "stTag": "0",
+                "lotSizeFilter": {
+                    "basePrecision": "0.1",
+                    "quotePrecision": "0.000001",
+                    "minOrderQty": "10",
+                    "maxOrderQty": "4571428.571429",
+                    "minOrderAmt": "5",
+                    "maxOrderAmt": "200000"
+                },
+                "priceFilter": {
+                    "tickSize": "0.00001"
+                }
             }
         ]
     },
-    "time": 1743456501950
+    "time": 1743596072540
 }
